@@ -2,7 +2,10 @@ name: example
 
 on: 
   push:
-  
+    branches:
+    - develop
+  schedule:
+    - cron: 15 4 * * *' 
   workflow_dispatch:
 
 jobs:
