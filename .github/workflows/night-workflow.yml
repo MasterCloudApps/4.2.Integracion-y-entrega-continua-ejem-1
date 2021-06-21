@@ -1,11 +1,8 @@
 name: Night workflow
 
 on:
-  push:
-    branches:
-    - develop
   schedule:
-    - cron: '0 4 * * *' 
+    - cron: '25 4 * * *' 
 
   workflow_dispatch:
 
